@@ -1,0 +1,23 @@
+<html>
+<body>
+    <h1 id="h1">
+    </h1>
+    <p id="n1">This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <button id="btna">change color of the text</button>
+    <button id="btnb"> change background Color </button>
+    <button id="btnc"> CLICK ME </button>
+    <script>document.getElementById("btna").addEventListener("click", function () {
+            document.getElementById("n1").style.color = "Green";
+        })
+        document.getElementById("btnb").addEventListener("click", function () {
+            document.body.style.backgroundColor = "orange";
+        })
+        document.getElementById("btnc").addEventListener("click", function () {
+            document.getElementById("h1").innerHTML = "HELLO WORLD";
+
+        })</script>
+</body>
+
+</html>
